@@ -7,23 +7,38 @@ exports.seed = function(knex, Promise){
           id: 1,
           name: "Spotted Hyena",
           scientific_name: "Crocuta crocuta",
-          image: "https://en.wikipedia.org/wiki/Spotted_hyena#/media/File:Crocuta_crocuta_Ngorongoro_Crater_(2015).jpg"
+          image: "https://i.imgur.com/75ymT8M.jpg"
         },
         {
           id: 2,
           name: "Black Rhinoceros",
           scientific_name: "Diceros bicornis",
-          image: "../../assets/black_rhinoceros.jpg"
+          image: "https://i.imgur.com/WycDVIW.jpg"
         },
         {
           id: 3,
           name: "West Indian Manatee",
           scientific_name: "Trichechus manatus",
-          image: "https://lazypenguins.com/wp-content/uploads/2016/03/Manatee.jpg"
+          image: "https://i.imgur.com/N7VnfNY.jpg"
+        },{
+          id: 4,
+          name: "Asian Elephant",
+          scientific_name: "Elephas maximus",
+          image: "https://i.imgur.com/cTYsZek.jpg"
+        },{
+          id: 5,
+          name: "Western Gorilla",
+          scientific_name: "Gorilla gorilla",
+          image: "https://i.imgur.com/fNMloqL.jpg"
+        },{
+          id: 6,
+          name: "Silky Anteater",
+          scientific_name: "Cyclopes didactylus",
+          image: "https://i.imgur.com/FgTHaEM.jpg"
         },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE animals_id_seq RESTART WITH 4;")
+      return knex.raw("ALTER SEQUENCE animals_id_seq RESTART WITH 7;")
     })
 }
