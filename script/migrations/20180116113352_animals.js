@@ -3,6 +3,7 @@ exports.up = function(knex, Promise){
     table.increments("id").primary()
     table.text("name")
     table.text("scientific_name")
+    table.text("image")
   })
 }
 
