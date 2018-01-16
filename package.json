@@ -1,0 +1,29 @@
+{
+  "name": "daily-animal-fact",
+  "version": "1.0.0",
+  "description": "Backend for the daily animal fact app",
+  "main": "./script/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulhighum/Daily-Animal-Fact-Backend.git"
+  },
+  "author": "Paul Highum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulhighum/Daily-Animal-Fact-Backend/issues"
+  },
+  "homepage": "https://github.com/paulhighum/Daily-Animal-Fact-Backend#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
