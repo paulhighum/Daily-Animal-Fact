@@ -185,6 +185,11 @@ exports.seed = function(knex, Promise){
           name: "Axolotl",
           scientific_name: "Ambystoma mexicanum",
           image: "https://i.imgur.com/uhh96Ve.jpg"
+        },{
+          id: 37,
+          name: "Ocean Sunfish",
+          scientific_name: "Mola mola",
+          image: "https://i.imgur.com/zclK74t.jpg"
         },
       ])
     })
