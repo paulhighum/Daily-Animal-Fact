@@ -180,6 +180,11 @@ exports.seed = function(knex, Promise){
           name: "Crowned Eagle",
           scientific_name: "Stephanoaetus coronatus",
           image: "https://i.imgur.com/GIJHIMl.png"
+        },{
+          id: 36,
+          name: "Axolotl",
+          scientific_name: "Ambystoma mexicanum",
+          image: "https://i.imgur.com/uhh96Ve.jpg"
         },
       ])
     })
