@@ -190,6 +190,11 @@ exports.seed = function(knex, Promise){
           name: "Ocean Sunfish",
           scientific_name: "Mola mola",
           image: "https://i.imgur.com/zclK74t.jpg"
+        },{
+          id: 38,
+          name: "Peregrine Falcon",
+          scientific_name: "Falco peregrinus",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
         },
       ])
     })
