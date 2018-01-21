@@ -195,6 +195,16 @@ exports.seed = function(knex, Promise){
           name: "Peregrine Falcon",
           scientific_name: "Falco peregrinus",
           image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 39,
+          name: "Tiger",
+          scientific_name: "Panthera tigris",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 40,
+          name: "Lion",
+          scientific_name: "Panthera leo",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
         },
       ])
     })
