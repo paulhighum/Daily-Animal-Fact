@@ -205,6 +205,56 @@ exports.seed = function(knex, Promise){
           name: "Lion",
           scientific_name: "Panthera leo",
           image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 41,
+          name: "Clouded Leopard",
+          scientific_name: "Neofelis nebulosa",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 42,
+          name: "Ocelot",
+          scientific_name: "Leopardus pardalis",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 43,
+          name: "Dhole",
+          scientific_name: "Cuon alpinus",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 44,
+          name: "Margay",
+          scientific_name: "Leopardus wiedii",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 45,
+          name: "Sand Cat",
+          scientific_name: "Felis margarita",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 46,
+          name: "Barasingha",
+          scientific_name: "Rucervus duvaucelii",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 47,
+          name: "Eurasian Lynx",
+          scientific_name: "Lynx lynx",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 48,
+          name: "Chamois",
+          scientific_name: "Rupicapra rupicapra",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 49,
+          name: "Kri-kri",
+          scientific_name: "Capra aegagrus cretica",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
+        },{
+          id: 50,
+          name: "African Bush Elephant",
+          scientific_name: "Loxodonta africana",
+          image: "https://i.imgur.com/9P2BvCo.jpg"
         },
       ])
     })
