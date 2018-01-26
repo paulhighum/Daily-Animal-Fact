@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise){
       return knex("facts").insert([
         {
           id: 1,
-          fact: "The african bush elephant is the largest extant terrestrial animal. The largest specimen on record stood 13ft tall at the shoulder and weighed over 22,000lbs",
+          fact: "The african bush elephant is the largest extant terrestrial animal. The largest specimen on record stood 13ft tall at the shoulder and weighed over 22,000 lb",
           animal_id: 50
         },{
           id: 2,
@@ -57,11 +57,11 @@ exports.seed = function(knex, Promise){
           animal_id: 40
         },{
           id: 14,
-          fact: "The lion has the loudest roar of any big cat, which can be heard op to 5 miles away.",
+          fact: "The lion has the loudest roar of any big cat, which can be heard up to 5 miles away.",
           animal_id: 40
         },{
           id: 15,
-          fact: "The tiger is the largest species of extant cat. The largest members of the species stand as high as 4ft tall at the shoulder, weigh nearly 700lbs, and have a total body length of over 11ft",
+          fact: "The tiger is the largest species of extant cat. The largest members of the species stand as high as 4ft tall at the shoulder, weigh nearly 700 lb, and have a total body length of over 11ft",
           animal_id: 39
         },{
           id: 16,
@@ -77,7 +77,7 @@ exports.seed = function(knex, Promise){
           animal_id: 38
         },{
           id: 19,
-          fact: "The ocean sunfish is the heaviest known bony fish on Earth. Adults typically weigh between 545 and 2,205 lbs, with the heaviest sunfish on record weighing over 5,000lbs.",
+          fact: "The ocean sunfish is the heaviest known bony fish on Earth. Adults typically weigh between 545 and 2,205 lb, with the heaviest sunfish on record weighing over 5,000 lb.",
           animal_id: 37
         },{
           id: 20,
@@ -93,38 +93,86 @@ exports.seed = function(knex, Promise){
           animal_id: 36
         },{
           id: 23,
-          fact: "",
-          animal_id: 41
+          fact: "Although the crowned eagle is not the largest eagle in Africa, it is considered Africa's most powerful eagle. It is perhaps the only living accipitrid to regularly attack prey weighing over 20 lb and can reportedly carry more than its own body weight during flight.",
+          animal_id: 35
         },{
           id: 24,
-          fact: "",
-          animal_id: 41
+          fact: "The peregrine falcon is the most widespread raptor in the world, inhabiting near every environment except extreme polar regions, very high mountains, and dense tropical rainforests.",
+          animal_id: 38
         },{
           id: 25,
-          fact: "",
-          animal_id: 41
+          fact: "Fish make up 99% of an osprey's diet. The raptor has multiple adaptions to enable it to easily catch fish, including closable nostrils for diving into water and reversible outer toes that allow them to grasp with two toes in front and two behind.",
+          animal_id: 34
         },{
           id: 26,
-          fact: "",
-          animal_id: 41
+          fact: "The waterbuck is the largest member of the genus Kobus, which contains six species of African antelopes associated with marshes, floodplains, or other grassy areas near water.",
+          animal_id: 33
         },{
           id: 27,
-          fact: "",
-          animal_id: 41
+          fact: "The Masai giraffe is the largest subspecies of giraffe and the tallest extant terrestrial animal. The tallest recorded male stood over 19ft tall.",
+          animal_id: 32
         },{
           id: 28,
-          fact: "",
-          animal_id: 41
+          fact: "Giraffes have a prehensile, black-purplish tongue that is 18 inches long, which they use for grasping foliage off thorny trees.",
+          animal_id: 32
         },{
           id: 29,
-          fact: "",
-          animal_id: 41
+          fact: "The plains zebra is the most common and widespread species of zebra. It ranges from Ethiopia in the north to South Africa in the south.",
+          animal_id: 31
         },{
           id: 30,
+          fact: "Although it was previously thought that zebras were white with black stripes, recent embryological evidence has shown that they are actually black with white stripes. Each zebra's stripes are unique and zebras may be able to identify each other based on their stripe patterns.",
+          animal_id: 31
+        },{
+          id: 31,
+          fact: "The golden poison frog is one of the most toxic animals on Earth. The average dose carried by a single frog can kill between 10 and 20 humans. Scientists believe it assimilates its toxins from some species of insect or arthropod, as captive-bred poison frogs are born harmless.",
+          animal_id: 30
+        },{
+          id: 32,
+          fact: "The golden poison frog is the largest species of poison dart frog, measuring a little over two inches.",
+          animal_id: 30
+        },{
+          id: 33,
+          fact: "The golden poison frog is a social animal, living in groups of up to 6 members in the wild and much larger groups in captivity.",
+          animal_id: 30
+        },{
+          id: 34,
+          fact: "The black footed cat is the smallest African cat. However it is also one of Africa's most successful hunters, succeeding on around 60% of its hunts and killing up to 14 small animals a night.",
+          animal_id: 29
+        },{
+          id: 35,
+          fact: "The serval has the longest legs of any cat relative to its body size.",
+          animal_id: 28
+        },{
+          id: 36,
+          fact: "With a diet primarily consisting of rodents, Servals are very efficient hunters. One study showed they succeeded on over 50% of their hunts, making 15-16 kills in a 24 hour period.",
+          animal_id: 28
+        },{
+          id: 37,
           fact: "",
           animal_id: 41
         },{
-          id: 31,
+          id: 38,
+          fact: "",
+          animal_id: 41
+        },{
+          id: 39,
+          fact: "",
+          animal_id: 41
+        },{
+          id: 40,
+          fact: "",
+          animal_id: 41
+        },{
+          id: 41,
+          fact: "",
+          animal_id: 41
+        },{
+          id: 42,
+          fact: "",
+          animal_id: 41
+        },{
+          id: 43,
           fact: "",
           animal_id: 41
         },
