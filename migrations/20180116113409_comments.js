@@ -3,6 +3,7 @@ exports.up = function(knex, Promise){
     table.increments("id").primary()
     table.text("comment")
     table.text("name")
+    table.integer("animal_id").references("animals.id")
   })
 }
 
