@@ -301,10 +301,26 @@ exports.seed = function(knex, Promise){
           animal_id: 1
         },{
           id: 75,
+          fact: "Elephants go through 6 sets of teeth in their life. Other mammals go through 2.",
+          animal_id: 4
+        },{
+          id: 76,
+          fact: "Elephants go through 6 sets of teeth in their life. Other mammals go through 2.",
+          animal_id: 50
+        },{
+          id: 77,
+          fact: "Elephants cannot trot, jump, or gallup.",
+          animal_id: 4
+        },{
+          id: 78,
+          fact: "Elephants cannot trot, jump, or gallup.",
+          animal_id: 50
+        },{
+          id: 79,
           fact: "",
           animal_id: 1
         },{
-          id: 76,
+          id: 80,
           fact: "",
           animal_id: 1
         },
