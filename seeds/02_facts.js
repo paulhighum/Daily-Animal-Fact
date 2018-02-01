@@ -293,7 +293,7 @@ exports.seed = function(knex, Promise){
           animal_id: 1
         },{
           id: 73,
-          fact: "Spotted hyenas are highly intelligent creatures, with a published study finding that hyenas outperformed chimpanzees at cooperative-problem-solving tests.",
+          fact: "Spotted hyenas are highly intelligent creatures. A published study found that hyenas outperformed chimpanzees at cooperative-problem-solving tests.",
           animal_id: 1
         },{
           id: 74,
