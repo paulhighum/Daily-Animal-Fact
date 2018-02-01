@@ -9,7 +9,7 @@ app.use(cors())
 
 app.get("/", (req, res) => {
   queries
-    .list()
+    .list("animals")
     .then(animals => {
       res.json({ animals })
     })
@@ -17,6 +17,15 @@ app.get("/", (req, res) => {
 })
 
 app.get("/facts", (req, res) => {
+  queries
+    .list("facts")
+    .then(animals => {
+      res.json({ animals })
+    })
+    .catch(console.error)
+})
+
+app.get("/animalfacts", (req, res) => {
   queries
     .combine()
     .then(facts => {

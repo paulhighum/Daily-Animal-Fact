@@ -149,7 +149,7 @@ exports.seed = function(knex, Promise){
           animal_id: 28
         },{
           id: 37,
-          fact: "African penguins have distinctive pink patches of skin above their eyes that help them cope with changing temperatures. When the temperature gets warmer, the penguin sends more blood to the glands above the eye to be cooled by the air surrounding it. This in turn causes the gland to turn a darker shade of pink.",
+          fact: "African penguins have distinctive pink patches of skin above their eyes that help them cope with changing temperatures. When the temperature gets warmer, the penguin sends more blood to the glands above the eye to be cooled by the air surrounding it, which they can then distribute throughout their body. This in turn causes the gland to turn a darker shade of pink.",
           animal_id: 27
         },{
           id: 38,
@@ -257,7 +257,7 @@ exports.seed = function(knex, Promise){
           animal_id: 6
         },{
           id: 64,
-          fact: "Sily anteaters can eat between 700 and 5,000 ants a day.",
+          fact: "Silky anteaters can eat between 700 and 5,000 ants a day.",
           animal_id: 6
         },{
           id: 65,

@@ -89,7 +89,7 @@ exports.seed = function(knex, Promise){
           id: 17,
           name: "White-Tailed Prairie Dog",
           scientific_name: "Cynomys leucurus",
-          image: "hhttps://i.imgur.com/VY7XbBK.jpg"
+          image: "https://i.imgur.com/VY7XbBK.jpg"
         },{
           id: 18,
           name: "Ring-Tailed Lemur",
@@ -179,7 +179,7 @@ exports.seed = function(knex, Promise){
           id: 35,
           name: "Crowned Eagle",
           scientific_name: "Stephanoaetus coronatus",
-          image: "https://i.imgur.com/GIJHIMl.png"
+          image: "https://i.imgur.com/51tOveD.jpg"
         },{
           id: 36,
           name: "Axolotl",

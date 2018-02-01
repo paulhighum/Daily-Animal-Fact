@@ -1,9 +1,10 @@
 const database = require("./database-connection")
 
 module.exports = {
-  list(){
-    return database("animals").select()
+  list(table){
+    return database(table).select()
   },
+  
   combine(){
     return database("facts")
       .join("animals", "animals.id", "=", "facts.animal_id")
