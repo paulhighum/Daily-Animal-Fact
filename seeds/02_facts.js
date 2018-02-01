@@ -73,7 +73,7 @@ exports.seed = function(knex, Promise){
           animal_id: 39
         },{
           id: 18,
-          fact: "The peregrine falcon is the fastest member of the animal kingdom, reaching speeds of over 200 mph during a hunting dive. The fastest recorded speed of a peregrine is 242 mph.",
+          fact: "Peregrine falcons are the fastest member of the animal kingdom, reaching speeds of over 200 mph during their hunting dives. The fastest recorded speed of a peregrine is 242 mph.",
           animal_id: 38
         },{
           id: 19,
@@ -85,7 +85,7 @@ exports.seed = function(knex, Promise){
           animal_id: 37
         },{
           id: 21,
-          fact: "The axolotl is unusual among amphibians because it reaches adulthood without undergoing metamorphosism, developing lungs and taking to land. Instead adult axolotl remain aquatic and gilled.",
+          fact: "The axolotl is unusual among amphibians because it reaches adulthood without undergoing metamorphosism, developing lungs and taking to land. Adult axolotl instead remain aquatic and gilled.",
           animal_id: 36
         },{
           id: 22,
@@ -165,7 +165,7 @@ exports.seed = function(knex, Promise){
           animal_id: 25
         },{
           id: 41,
-          fact: "The mata mata is a freshwater turtle found in South America. It's appearance resembles probably most resembles bark, camoflauging it from potential predators. After being first classified as Testudo fimbriata in 1783, it was renamed 14 different times in two centuries before finally being renamed Chelus fimbriata in 1992.",
+          fact: "The mata mata is a freshwater turtle found in South America. It's appearance probably most resembles bark, camoflauging it from potential predators. After being first classified as Testudo fimbriata in 1783, it was renamed 14 different times in two centuries before finally being renamed Chelus fimbriata in 1992.",
           animal_id: 24
         },{
           id: 42,
@@ -201,7 +201,7 @@ exports.seed = function(knex, Promise){
           animal_id: 16
         },{
           id: 50,
-          fact: "The riger quoll is a carnivorous marsupial, the largest on mainland australia and the world's second largest behind the Tasmanian devil. Male tiger quolls weigh, on average, a little over 7 lb.",
+          fact: "The tiger quoll is a carnivorous marsupial, the largest on mainland australia and the world's second largest behind the Tasmanian devil. Male tiger quolls weigh, on average, a little over 7 lb.",
           animal_id: 15
         },{
           id: 51,

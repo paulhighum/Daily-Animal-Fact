@@ -19,8 +19,17 @@ app.get("/", (req, res) => {
 app.get("/facts", (req, res) => {
   queries
     .list("facts")
-    .then(animals => {
-      res.json({ animals })
+    .then(facts => {
+      res.json({ facts })
+    })
+    .catch(console.error)
+})
+
+app.get("/comments", (req, res) => {
+  queries
+    .list("comments")
+    .then(comments => {
+      res.json({ comments })
     })
     .catch(console.error)
 })
