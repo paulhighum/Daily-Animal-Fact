@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise){
           animal_id: 39
         },{
           id: 16,
-          fact: "Tigers mostly feed on large and medium-sized animals, preferring prey that weighs at least 200lbs. In Siberia, Asiatic black bears and Ussuri brown bears can constitute a large portion of a tigers diet.",
+          fact: "Tigers mostly feed on large and medium-sized animals, preferring prey that weighs at least 200lbs. In Siberia, for instance, Asiatic black bears and Ussuri brown bears can constitute a large portion of a tigers diet.",
           animal_id: 39
         },{
           id: 17,
@@ -161,7 +161,7 @@ exports.seed = function(knex, Promise){
           animal_id: 25
         },{
           id: 40,
-          fact: "Mantis shrimp have some of the most elaborate eyes ever discovered. Their eyes carry 16 types of color receptive cones, in comparison to human eyes which carry 3 types of color receptive cones, and they can tune the sensitivity of their long-wavelength vision to adapt to their environment.",
+          fact: "Mantis shrimp have one of the most elaborate vision systems in the world. Their eyes carry 16 types of color receptive cones, in comparison to human eyes which carry 3 types of color receptive cones, and they can tune the sensitivity of their long-wavelength vision to adapt to their environment.",
           animal_id: 25
         },{
           id: 41,
