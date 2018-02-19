@@ -41,7 +41,7 @@ exports.seed = function(knex, Promise){
           animal_id: 43
         },{
           id: 10,
-          fact: "The ocelot, a medium-sized spotted cat, is found throughout South America and southern North America. The record for highest ocelot density belongs to the Barro Colorado Island in the middle of the Panama Canal, which has a species density of 4.1-4.5 ocelots per square mile.",
+          fact: "The ocelot, a medium-sized spotted cat, is found throughout South America and southern North America. The record for highest ocelot density belongs to the Barro Colorado Island in the middle of the Panama Canal, which has a species density of 4.1 to 4.5 ocelots per square mile.",
           animal_id: 42
         },{
           id: 11,
