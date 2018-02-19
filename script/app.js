@@ -7,29 +7,29 @@ const cors = require("cors")
 app.use(bodyParser.json())
 app.use(cors())
 
-app.get("/animals", (req, res) => {
+app.get("/animals", (request, response) => {
   queries
     .list("animals")
     .then(animals => {
-      res.json({ animals })
+      response.json({ animals })
     })
     .catch(console.error)
 })
 
-app.get("/facts", (req, res) => {
+app.get("/facts", (request, response) => {
   queries
     .list("facts")
     .then(facts => {
-      res.json({ facts })
+      response.json({ facts })
     })
     .catch(console.error)
 })
 
-app.get("/comments", (req, res) => {
+app.get("/comments", (request, response) => {
   queries
     .list("comments")
     .then(comments => {
-      res.json({ comments })
+      response.json({ comments })
     })
     .catch(console.error)
 })
@@ -124,11 +124,11 @@ app.delete("/comments/:id", (request, response) => {
     .catch(console.error)
 })
 
-app.get("/", (req, res) => {
+app.get("/", (request, response) => {
   queries
     .combine()
     .then(facts => {
-      res.json({ facts })
+      response.json({ facts })
     })
     .catch(console.error)
 })
