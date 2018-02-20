@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise){
           animal_id: 39
         },{
           id: 16,
-          fact: "Tigers mostly feed on large and medium-sized animals, preferring prey that weighs at least 200lbs. In Siberia, for instance, Asiatic black bears and Ussuri brown bears can constitute a large portion of a tigers diet.",
+          fact: "Tigers mostly feed on large and medium-sized animals, preferring prey that weighs at least 200 lb. In Siberia, for instance, Asiatic black bears and Ussuri brown bears can constitute a large portion of a tigers diet.",
           animal_id: 39
         },{
           id: 17,
@@ -197,11 +197,11 @@ exports.seed = function(knex, Promise){
           animal_id: 17
         },{
           id: 49,
-          fact: "Sun bears are the smallest bears, weighing on average between 60 and 170 lb. It uses its powerful jaw and claws to tear open tropical hardwood trees in search of food such as insects, larvae, and honey.",
+          fact: "Sun bears are the smallest bears in the world, weighing on average between 60 and 170 lb. It uses its powerful jaw and claws to tear open tropical hardwood trees in search of food such as insects, larvae, and honey.",
           animal_id: 16
         },{
           id: 50,
-          fact: "The tiger quoll is a carnivorous marsupial, the largest on mainland australia and the world's second largest behind the Tasmanian devil. Male tiger quolls weigh, on average, a little over 7 lb.",
+          fact: "The tiger quoll is a carnivorous marsupial, the largest on mainland Australia and the world's second largest behind the Tasmanian devil. Male tiger quolls weigh, on average, a little over 7 lb.",
           animal_id: 15
         },{
           id: 51,
