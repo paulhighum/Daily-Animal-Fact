@@ -26,7 +26,7 @@ module.exports = {
   delete(id, table){
     return database(table).delete().where("id", id)
   },
-  combine(){
+  getAnimalFacts(){
     return database("facts")
       .join("animals", "animals.id", "=", "facts.animal_id")
       .select("facts.id", {animal_id: "animals.id"}, "animals.name", "animals.scientific_name", "animals.image", "facts.fact")

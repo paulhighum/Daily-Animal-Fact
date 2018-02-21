@@ -3,6 +3,7 @@ const app = express()
 const queries = require("./queries")
 const bodyParser = require("body-parser")
 const cors = require("cors")
+const stripe = require("stripe")(process.env.STRIPE_KEY)
 
 app.use(bodyParser.json())
 app.use(cors())
@@ -115,26 +116,69 @@ app.put("/facts/:id", (request, response) => {
     .catch(console.error)
 })
 
-app.delete("/comments/:id", (request, response) => {
+app.delete("/comments/:id", (request, response, next) => {
   queries
     .delete(request.params.id, "comments")
     .then(() => {
       response.sendStatus(204)
     })
-    .catch(console.error)
+    .catch(next)
 })
 
-app.get("/", (request, response) => {
+app.get("/", (request, response, next) => {
   queries
-    .combine()
+    .getAnimalFacts()
     .then(facts => {
       response.json({ facts })
     })
-    .catch(console.error)
+    .catch(next)
 })
 
-app.use((request, response) => {
-  response.send(404)
+app.post("/charge", (request, response, next) => {
+  charge(
+    parseInt(request.body.amount) * 100,
+    request.body.service,
+    request.body.token
+  )
+    .then(charge => {
+      response.json({ charge })
+    })
+    .catch(next)
+})
+
+function charge(amount, service, token){
+  return new Promise((resolve, reject) => {
+    stripe.charges.create(
+      {
+        amount: amount,
+        currency: "usd",
+        description: service,
+        source: token
+      },
+      (error, charge) => {
+        if(error){
+          reject(error)
+        } else {
+          resolve(charge)
+        }
+      }
+    )
+  })
+}
+
+app.use((req, res, next) => {
+  const err = new Error("Not Found")
+  err.status = 404
+  next(err)
+})
+
+// error handler
+app.use((err, req, res, next) => {
+  res.status(err.status || 500)
+  res.json({
+    message: err.message,
+    error: req.app.get("env") === "development" ? err.stack : {}
+  })
 })
 
 module.exports = app
