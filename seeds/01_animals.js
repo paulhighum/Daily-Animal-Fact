@@ -277,9 +277,9 @@ exports.seed = function(knex, Promise){
           image: "https://i.imgur.com/ztSdTOU.jpg"
         },{
           id: 55,
-          name: "African Bush Elephant",
-          scientific_name: "Loxodonta africana",
-          image: "https://i.imgur.com/18gALSU.jpg"
+          name: "Tasmanian Devil",
+          scientific_name: "Sarcophilus harrisii",
+          image: "https://i.imgur.com/2w5Ceix.jpg"
         },
       ])
     })
