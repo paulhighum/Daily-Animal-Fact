@@ -54,7 +54,7 @@ exports.seed = function(knex, Promise){
           id: 10,
           name: "Arctic Fox",
           scientific_name: "Vulpes lagopus",
-          image: "https://i.imgur.com/SA8lAQm.jpg"
+          image: "https://i.imgur.com/8wmgqd9.jpg"
         },{
           id: 11,
           name: "Giant Pangolin",
@@ -252,6 +252,31 @@ exports.seed = function(knex, Promise){
           image: "https://i.imgur.com/jWdOYM6.jpg"
         },{
           id: 50,
+          name: "African Bush Elephant",
+          scientific_name: "Loxodonta africana",
+          image: "https://i.imgur.com/18gALSU.jpg"
+        },{
+          id: 51,
+          name: "Sperm Whale",
+          scientific_name: "Physeter macrocephalus",
+          image: "https://i.imgur.com/XhuFyDl.jpg"
+        },{
+          id: 52,
+          name: "Killer Whale",
+          scientific_name: "Orcinus orca",
+          image: "https://i.imgur.com/PNLmHUE.jpg"
+        },{
+          id: 53,
+          name: "Narwhal",
+          scientific_name: "Monodon monoceros",
+          image: "https://i.imgur.com/o51XX0C.jpg"
+        },{
+          id: 54,
+          name: "Crab-Eating Fox",
+          scientific_name: "Cerdocyon thous",
+          image: "https://i.imgur.com/ztSdTOU.jpg"
+        },{
+          id: 55,
           name: "African Bush Elephant",
           scientific_name: "Loxodonta africana",
           image: "https://i.imgur.com/18gALSU.jpg"
