@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise){
       return knex("facts").insert([
         {
           id: 1,
-          fact: "The African bush elephant is the largest extant terrestrial animal. The largest specimen on record stood 13ft tall at the shoulder and weighed over 22,000 lb",
+          fact: "The African bush elephant is the largest extant terrestrial animal. The largest specimen on record stood 13 ft tall at the shoulder and weighed over 22,000 lb",
           animal_id: 50
         },{
           id: 2,
@@ -61,7 +61,7 @@ exports.seed = function(knex, Promise){
           animal_id: 40
         },{
           id: 15,
-          fact: "The tiger is the largest species of extant cat. The largest members of the species stand as high as 4ft tall at the shoulder, weigh nearly 700 lb, and have a total body length of over 11ft",
+          fact: "The tiger is the largest species of extant cat. The largest members of the species stand as high as 4 ft tall at the shoulder, weigh nearly 700 lb, and have a total body length of over 11 ft",
           animal_id: 39
         },{
           id: 16,
@@ -109,7 +109,7 @@ exports.seed = function(knex, Promise){
           animal_id: 33
         },{
           id: 27,
-          fact: "The Masai giraffe is the largest subspecies of giraffe and the tallest extant terrestrial animal. The tallest recorded male stood over 19ft tall.",
+          fact: "The Masai giraffe is the largest subspecies of giraffe and the tallest extant terrestrial animal. The tallest recorded male stood over 19 ft tall.",
           animal_id: 32
         },{
           id: 28,
@@ -221,7 +221,7 @@ exports.seed = function(knex, Promise){
           animal_id: 12
         },{
           id: 55,
-          fact: "The giant pangolin is the largest of all pangolin species, with body lengths of over 4ft.",
+          fact: "The giant pangolin is the largest of all pangolin species, with body lengths of over 4 ft.",
           animal_id: 11
         },{
           id: 56,
@@ -317,10 +317,34 @@ exports.seed = function(knex, Promise){
           animal_id: 50
         },{
           id: 79,
+          fact: "The sperm whale is the largest extant toothed predator, reaching lengths of up to 67 ft and weighing up to 56 tons.",
+          animal_id: 51
+        },{
+          id: 80,
+          fact: "Sperm whales can dive as deep as 6,600 ft in search of the medium to large sized squid they primarily eat. These dives can last over an hour.",
+          animal_id: 51
+        },{
+          id: 81,
+          fact: "Killer whales, despite their name, actually belong to the family Delphinidae and are therefore the largest oceanic dolphin. The largest ever recorded was 32 ft long and weighed nearly 10 tons.",
+          animal_id: 52
+        },{
+          id: 82,
+          fact: "Killer whales are apex predators and have even been documented killing and feeding on great white sharks.",
+          animal_id: 52
+        },{
+          id: 83,
+          fact: "The tusk of a male narwhal is actually a long canine tooth that has grown through the upper lip. These tusks can reach lengths of over 10 ft and in rare cases male narwhals may even have two tusks when both of their canines grow through their upper lip.",
+          animal_id: 53
+        },{
+          id: 84,
+          fact: "",
+          animal_id: 54
+        },{
+          id: 85,
           fact: "",
           animal_id: 1
         },{
-          id: 80,
+          id: 86,
           fact: "",
           animal_id: 1
         },
