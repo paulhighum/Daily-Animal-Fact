@@ -337,16 +337,16 @@ exports.seed = function(knex, Promise){
           animal_id: 53
         },{
           id: 84,
-          fact: "",
+          fact: "The crab-eating fox, a canid found in South America, has earned its name by hunting crabs on muddy floodplains during the rainy season.",
           animal_id: 54
         },{
           id: 85,
-          fact: "",
-          animal_id: 1
+          fact: "The Tasmanian devil is the largest extant carnivorous marsupial. Males are, on average, around 26 inches in length and weigh around 18 lb.",
+          animal_id: 55
         },{
           id: 86,
-          fact: "",
-          animal_id: 1
+          fact: "The Tasmanian devil has the most powerful bite relative to body size of any extant mammalian carnivore. It's jaw can open up 75 - 80 degrees wide, enabling it to exert 553 N of force.",
+          animal_id: 55
         },
 
       ])
