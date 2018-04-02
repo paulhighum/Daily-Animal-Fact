@@ -197,7 +197,7 @@ exports.seed = function(knex, Promise){
           animal_id: 17
         },{
           id: 49,
-          fact: "Sun bears are the smallest bears in the world, weighing on average between 60 and 170 lb. It uses its powerful jaw and claws to tear open tropical hardwood trees in search of food such as insects, larvae, and honey.",
+          fact: "Sun bears are the smallest bears in the world, weighing on average between 60 and 170 lb. Despite their small size, the have powerful jaws and claws, which they use to tear open tropical hardwood trees in search of food such as insects, larvae, and honey.",
           animal_id: 16
         },{
           id: 50,
