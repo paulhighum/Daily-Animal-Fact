@@ -285,10 +285,40 @@ exports.seed = function(knex, Promise){
           name: "Platypus",
           scientific_name: "Ornithorhynchus anatinus",
           image: "https://i.imgur.com/DSICYLM.jpg"
+        },{
+          id: 57,
+          name: "Dugong",
+          scientific_name: "Dugong dugon",
+          image: "https://i.imgur.com/CPzRCFn.jpg"
+        },{
+          id: 58,
+          name: "Greater Blue-Ringed Octopus",
+          scientific_name: "Hapalochlaena lunulata",
+          image: "https://i.imgur.com/OwF9zTR.jpg"
+        },{
+          id: 59,
+          name: "White Rhinoceros",
+          scientific_name: "Ceratotherium simum",
+          image: "https://i.imgur.com/Qaxvj6h.jpg"
+        },{
+          id: 60,
+          name: "Indian Rhinoceros",
+          scientific_name: "Rhinoceros unicornis",
+          image: "https://i.imgur.com/4U4ixAn.jpg"
+        },{
+          id: 61,
+          name: "Gaur",
+          scientific_name: "Bos gaurus",
+          image: "https://i.imgur.com/uNCgJ3z.jpg"
+        },{
+          id: 62,
+          name: "African Wild Dog",
+          scientific_name: "Lycaon pictus",
+          image: "https://i.imgur.com/iqKjtoU.jpg"
         },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE animals_id_seq RESTART WITH 51;")
+      return knex.raw("ALTER SEQUENCE animals_id_seq RESTART WITH 63;")
     })
 }
