@@ -385,16 +385,16 @@ exports.seed = function(knex, Promise){
           animal_id: 59
         },{
           id: 96,
-          fact: "",
-          animal_id: 59
+          fact: "The dugong is easily distinguished from manatees by its fluked, dolphin-like tail.",
+          animal_id: 58
         },{
           id: 97,
-          fact: "",
-          animal_id: 59
+          fact: "The dugong is the only strictly herbivorous marine mammal as manatees have been known to occasionally eat fish.",
+          animal_id: 58
         },{
           id: 98,
           fact: "",
-          animal_id: 59
+          animal_id: 57
         },{
           id: 99,
           fact: "",
