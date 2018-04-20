@@ -297,7 +297,7 @@ exports.seed = function(knex, Promise){
           animal_id: 1
         },{
           id: 74,
-          fact: "There is a common misconception that spotted hyenas are primarily scavengers, however they are actually very efficient hunters that can hunt alone, in small groups of 3 to 5, or in large groups. In fact in some areas lions are more likely to steal a kill from hyenas than hyenas are to steal a kill from lions",
+          fact: "There is a common misconception that spotted hyenas are primarily scavengers, however they are actually very efficient hunters that can hunt alone, in small groups of 3 to 5, or in large groups. In fact, in some areas lions are more likely to steal a kill from hyenas than hyenas are to steal a kill from lions",
           animal_id: 1
         },{
           id: 75,
@@ -347,6 +347,34 @@ exports.seed = function(knex, Promise){
           id: 86,
           fact: "The Tasmanian devil has the most powerful bite relative to body size of any extant mammalian carnivore. It's jaw can open up 75 - 80 degrees wide, enabling it to exert 553 N of force.",
           animal_id: 55
+        },{
+          id: 87,
+          fact: "The African wild dog is the largest Canid in Africa and the only extant member of the genus Lycaon, which is distinguished from Canis by its fewer toes and its dentition.",
+          animal_id: 62
+        },{
+          id: 88,
+          fact: "African wild dogs are highly successful hunters, often with greater than 60% of their chases ending in kills. This high success rate is necessary because lions and hyenas frequently steal their kills.",
+          animal_id: 62
+        },{
+          id: 89,
+          fact: "African wild dogs differ from most other social species in that males remain with their natal pack while females disperse to new packs.",
+          animal_id: 62
+        },{
+          id: 90,
+          fact: "",
+          animal_id: 61
+        },{
+          id: 91,
+          fact: "",
+          animal_id: 62
+        },{
+          id: 92,
+          fact: "",
+          animal_id: 62
+        },{
+          id: 93,
+          fact: "",
+          animal_id: 62
         },
 
       ])
