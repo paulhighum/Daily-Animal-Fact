@@ -361,22 +361,49 @@ exports.seed = function(knex, Promise){
           animal_id: 62
         },{
           id: 90,
-          fact: "",
+          fact: "The gaur is the largest extant bovine and can reach weights of over 3,000 lb. Only elephants, rhinoceroses, hippopotamuses, and giraffes are consistently heavier.",
           animal_id: 61
         },{
           id: 91,
-          fact: "",
-          animal_id: 62
+          fact: "The Indian rhino is perhaps most distinguishable by its single horn and armor-like skin folds. These folds increase the surface area of the skin and help with thermoregulation.",
+          animal_id: 60
         },{
           id: 92,
-          fact: "",
-          animal_id: 62
+          fact: "The white rhinoceros has the widest set of nostrils of any terrestrial animal",
+          animal_id: 59
         },{
           id: 93,
+          fact: "The white rhinoceros is the largest of the five species of rhinoceros and weighs slightly more on average than a hippopotamus. The largest size the species can attain is not definitively known, specimens of up to 7,940 lb are considered reliable, while larger sizes up to 9,920 lb have been claimed but are not verified",
+          animal_id: 59
+        },{
+          id: 94,
+          fact: "Black rhinoceroses have a pointed and prehensile upper lip, which they use to grasp leaves and twigs while feeding.",
+          animal_id: 2
+        },{
+          id: 95,
+          fact: "The longest white rhinoceros horn every recorded was 59 inches in length",
+          animal_id: 59
+        },{
+          id: 96,
           fact: "",
-          animal_id: 62
+          animal_id: 59
+        },{
+          id: 97,
+          fact: "",
+          animal_id: 59
+        },{
+          id: 98,
+          fact: "",
+          animal_id: 59
+        },{
+          id: 99,
+          fact: "",
+          animal_id: 59
+        },{
+          id: 100,
+          fact: "",
+          animal_id: 59
         },
-
       ])
     })
     .then(() => {
