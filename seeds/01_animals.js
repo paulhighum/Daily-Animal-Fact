@@ -280,6 +280,11 @@ exports.seed = function(knex, Promise){
           name: "Tasmanian Devil",
           scientific_name: "Sarcophilus harrisii",
           image: "https://i.imgur.com/2w5Ceix.jpg"
+        },{
+          id: 56,
+          name: "Platypus",
+          scientific_name: "Ornithorhynchus anatinus",
+          image: "https://i.imgur.com/DSICYLM.jpg"
         },
       ])
     })
