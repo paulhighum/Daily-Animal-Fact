@@ -415,10 +415,14 @@ exports.seed = function(knex, Promise){
           id: 103,
           fact: "The Sunda flying lemur is not a lemur, its a colugo, and it does not fly. Instead, it glides as it leaps among trees.",
           animal_id: 63
+        },{
+          id: 104,
+          fact: "Clouded leopards are the most talented climbers among the cats. In captivity, they have been observed to climb down vertical tree trunks head first, and hang on to branches with their hind paws bent around branchings of tree limbs. They are capable of supination and can even hang down from branches only by bending their hind paws and their tail around them.",
+          animal_id: 41
         },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 104;")
+      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 105;")
     })
 }
