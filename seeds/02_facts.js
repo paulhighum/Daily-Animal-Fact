@@ -417,7 +417,7 @@ exports.seed = function(knex, Promise){
           animal_id: 63
         },{
           id: 104,
-          fact: "Clouded leopards are the most talented climbers among the cats. In captivity, they have been observed to climb down vertical tree trunks head first, and hang on to branches with their hind paws bent around branchings of tree limbs. They are capable of supination and can even hang down from branches only by bending their hind paws and their tail around them.",
+          fact: "Clouded leopards are the most talented climbers among cats. In captivity, they have been observed to climb down vertical tree trunks head first, and hang on to branches with their hind paws bent around branchings of tree limbs.",
           animal_id: 41
         },
       ])
