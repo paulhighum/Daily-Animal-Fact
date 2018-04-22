@@ -315,6 +315,16 @@ exports.seed = function(knex, Promise){
           name: "African Wild Dog",
           scientific_name: "Lycaon pictus",
           image: "https://i.imgur.com/iqKjtoU.jpg"
+        },{
+          id: 63,
+          name: " Sunda Flying Lemur",
+          scientific_name: "Galeopterus variegatus",
+          image: "https://i.imgur.com/6cfnPU4.jpg"
+        },{
+          id: 64,
+          name: "California Newt",
+          scientific_name: "Taricha torosa",
+          image: "https://i.imgur.com/DJhDCXp.jpg"
         },
       ])
     })

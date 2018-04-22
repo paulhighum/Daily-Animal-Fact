@@ -407,10 +407,18 @@ exports.seed = function(knex, Promise){
           id: 101,
           fact: "The blue-ringed octopus is one of the world's most venomous marine animals and, despite its small size, it carries enough venom to kill twenty-six adult humans within minutes.",
           animal_id: 58
+        },{
+          id: 102,
+          fact: "The glands in the skin of the California newt secrete the potent neurotoxin tetrodotoxin, which is hundreds of times more toxic than cyanide. As a result California newts have few natural predators. Garter snakes are the most common, and some species have developed a genetic resistance to tetrodotoxin.",
+          animal_id: 64
+        },{
+          id: 103,
+          fact: "The Sunda flying lemur is not a lemur, its a colugo, and it does not fly. Instead, it glides as it leaps among trees.",
+          animal_id: 63
         },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 75;")
+      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 104;")
     })
 }
