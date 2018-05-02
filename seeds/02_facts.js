@@ -419,10 +419,14 @@ exports.seed = function(knex, Promise){
           id: 104,
           fact: "Clouded leopards are the most talented climbers among cats. In captivity, they have been observed to climb down vertical tree trunks head first, and hang on to branches with their hind paws bent around branchings of tree limbs.",
           animal_id: 41
+        },{
+          id: 105,
+          fact: "Walrus faces are covered in between 400 and 700 mystacial vibrissae (whiskers). These vibrissae are highly senstive tactile organs that help the walrus differentiate shapes on the seafloor in order to find food such as sea worms, mussels, and clams.",
+          animal_id: 65
         },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 105;")
+      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 106;")
     })
 }

@@ -325,10 +325,15 @@ exports.seed = function(knex, Promise){
           name: "California Newt",
           scientific_name: "Taricha torosa",
           image: "https://i.imgur.com/DJhDCXp.jpg"
+        },{
+          id: 65,
+          name: "Walrus",
+          scientific_name: "Odobenus rosmarus",
+          image: "https://i.imgur.com/4VCkWoo.jpg"
         },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE animals_id_seq RESTART WITH 63;")
+      return knex.raw("ALTER SEQUENCE animals_id_seq RESTART WITH 66;")
     })
 }
