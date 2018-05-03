@@ -381,7 +381,7 @@ exports.seed = function(knex, Promise){
           animal_id: 2
         },{
           id: 95,
-          fact: "The longest white rhinoceros horn every recorded was 59 inches in length",
+          fact: "The longest white rhinoceros horn ever recorded was 59 inches in length",
           animal_id: 59
         },{
           id: 96,
