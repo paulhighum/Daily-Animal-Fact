@@ -409,7 +409,7 @@ exports.seed = function(knex, Promise){
           animal_id: 58
         },{
           id: 102,
-          fact: "The glands in the skin of the California newt secrete the potent neurotoxin tetrodotoxin, which is hundreds of times more toxic than cyanide. As a result California newts have few natural predators. Garter snakes are the most common, and some species have developed a genetic resistance to tetrodotoxin.",
+          fact: "The glands in the skin of the California newt secrete the potent neurotoxin tetrodotoxin, which is hundreds of times more toxic than cyanide. As a result California newts have few natural predators. Garter snakes are the most common, and some garter snake species have developed a genetic resistance to tetrodotoxin.",
           animal_id: 64
         },{
           id: 103,
