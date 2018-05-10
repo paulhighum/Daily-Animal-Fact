@@ -429,7 +429,7 @@ exports.seed = function(knex, Promise){
           animal_id: 66 
         },{
           id: 107,
-          fact: "The blue dragon is a species of pelagic nudibranch. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata (an external anatomical structure found in nudibranchs). It can use its cerata to make swimming movements in order to propel itself.",
+          fact: "The blue dragon is a species of pelagic nudibranch. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata (cerata are an external anatomical structure found in nudibranchs). It can use its cerata to make swimming movements in order to propel itself.",
           animal_id: 66
         },
       ])
