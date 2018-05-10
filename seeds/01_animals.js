@@ -330,6 +330,11 @@ exports.seed = function(knex, Promise){
           name: "Walrus",
           scientific_name: "Odobenus rosmarus",
           image: "https://i.imgur.com/4VCkWoo.jpg"
+        },{
+          id: 66,
+          name: "Blue Dragon",
+          scientific_name: "Glaucus atlanticus",
+          image: "https://i.imgur.com/5ynNCoI.jpg"
         },
       ])
     })

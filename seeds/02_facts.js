@@ -423,6 +423,10 @@ exports.seed = function(knex, Promise){
           id: 105,
           fact: "Walrus faces are covered in between 400 and 700 mystacial vibrissae (whiskers). These vibrissae are highly senstive tactile organs that help the walrus differentiate shapes on the seafloor in order to find food such as sea worms, mussels, and clams.",
           animal_id: 65
+        },{
+          id: 106,
+          fact: "The blue dragon is a species of pelagic nudibranch that is known to feed on the Portuguese man o' war. It is able to feed on the Portuguese man o' war due to its immunity to the venomous nematocysts. The nudibranch consumes the entire organism and appears to select and store the most venomous nematocysts for its own use. Because the blue dragon concentrates the venom, it can produce a more powerful and deadly sting than the Man o' War on which it feeds.",
+          animal_id: 66 
         },
       ])
     })
