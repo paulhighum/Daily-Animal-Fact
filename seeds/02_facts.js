@@ -427,6 +427,10 @@ exports.seed = function(knex, Promise){
           id: 106,
           fact: "The blue dragon is a species of pelagic nudibranch that is known to feed on the Portuguese man o' war. It is able to feed on the Portuguese man o' war due to its immunity to the venomous nematocysts. The nudibranch consumes the entire organism and appears to select and store the most venomous nematocysts for its own use. Because the blue dragon concentrates the venom, it can produce a more powerful and deadly sting than the Man o' War on which it feeds.",
           animal_id: 66 
+        },{
+          id: 107,
+          fact: "The blue dragon is a species of pelagic nudibranch. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata (an external anatomical structure found in nudibranchs). It can use its cerata to make swimming movements in order to propel itself.",
+          animal_id: 66
         },
       ])
     })
