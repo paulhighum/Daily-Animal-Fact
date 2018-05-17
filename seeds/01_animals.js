@@ -335,6 +335,11 @@ exports.seed = function(knex, Promise){
           name: "Blue Dragon",
           scientific_name: "Glaucus atlanticus",
           image: "https://i.imgur.com/5ynNCoI.jpg"
+        }, {
+          id: 67,
+          name: "Capybara",
+          scientific_name: "Hydrochoerus hydrochaeris",
+          image: "https://i.imgur.com/MDOqHfq.jpg"
         },
       ])
     })

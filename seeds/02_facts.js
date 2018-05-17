@@ -431,6 +431,14 @@ exports.seed = function(knex, Promise){
           id: 107,
           fact: "The blue dragon is a species of pelagic nudibranch. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata (cerata are an external anatomical structure found in nudibranchs). It can use its cerata to make swimming movements in order to propel itself.",
           animal_id: 66
+        }, {
+          id: 108,
+          fact: "The capybara is the largest extant rodent and can weigh as much as 200 lb. Despite their weight they can run surprisingly fast, with a top speed of around 22 mph.",
+          animal_id: 67
+        }, {
+          id: 109,
+          fact: "Between the 16th and 18th centuries Venezuelan clergyman wrote to the Vatican asking if they could count the capybara as a fish because they wanted to eat it on the meat-free days of Lent. They argued that the capybara tasted like fish, lived in water, and had webbed feet. The Catholic Church agreed with their Venezuelan clergyman and the capybara became a coveted addition to many Lenten dinner tables.",
+          animal_id: 67
         },
       ])
     })
