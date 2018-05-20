@@ -421,7 +421,7 @@ exports.seed = function(knex, Promise){
           animal_id: 41
         },{
           id: 105,
-          fact: "Walrus faces are covered in between 400 and 700 mystacial vibrissae (whiskers). These vibrissae are highly senstive tactile organs that help the walrus differentiate shapes on the seafloor in order to find food such as sea worms, mussels, and clams.",
+          fact: "Walrus faces are covered in between 400 and 700 mystacial vibrissae (whiskers). These vibrissae are highly sensitive tactile organs that help the walrus differentiate shapes on the seafloor in order to find food such as sea worms, mussels, and clams.",
           animal_id: 65
         },{
           id: 106,
@@ -439,7 +439,23 @@ exports.seed = function(knex, Promise){
           id: 109,
           fact: "Between the 16th and 18th centuries Venezuelan clergyman wrote to the Vatican asking if they could count the capybara as a fish because they wanted to eat it on the meat-free days of Lent. They argued that the capybara tasted like fish, lived in water, and had webbed feet. The Catholic Church agreed with their Venezuelan clergyman and the capybara became a coveted addition to many Lenten dinner tables.",
           animal_id: 67
-        },
+        }, {
+          id: 110,
+          fact: "The short-beaked echidna lacks the ability to sweat and cannot deal well with heat, so it tends to avoid daytime activity in hot weather. Yet it is also not an animal well equiped for the cold, as it spends the Australian winter months in hibernation.",
+          animal_id: 68
+        }, {
+          id: 111,
+          fact: "Short-beaked echidnas are found throughout Australia, where they are the most widespread native mammal, and in coastal and highland regions of southwestern New Guinea.",
+          animal_id: 68
+        }, {
+          id: 112,
+          fact: "Short-beaked echidnas are one of five extant species of monotremes, and as such possess only one orifice, the cloaca, for the passage of feces, urine and reproductive products.",
+          animal_id: 68
+        }, {
+          id: 113,
+          fact: "The short-beaked echidna has a very specialized snout and tongue for feeding on insects. Its tongue is sticky, extremely flexible, and can move with great speed, having been measured to move in and out of the snout 100 times a minute.",
+          animal_id: 68
+        }
       ])
     })
     .then(() => {

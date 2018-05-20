@@ -340,6 +340,11 @@ exports.seed = function(knex, Promise){
           name: "Capybara",
           scientific_name: "Hydrochoerus hydrochaeris",
           image: "https://i.imgur.com/MDOqHfq.jpg"
+        }, {
+          id: 68,
+          name: "Short-Beaked Echidna",
+          scientific_name: "achyglossus aculeatus",
+          image: "https://i.imgur.com/Q7JW3TL.jpg"
         },
       ])
     })
