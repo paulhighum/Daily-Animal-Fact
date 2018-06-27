@@ -455,10 +455,14 @@ exports.seed = function(knex, Promise){
           id: 113,
           fact: "The short-beaked echidna has a very specialized snout and tongue for feeding on insects. Its tongue is sticky, extremely flexible, and can move with great speed, having been measured to move in and out of the snout 100 times a minute.",
           animal_id: 68
-        }
+        }, {
+          id: 114,
+          fact: "Geladas are the only primates that are primarily graminivores and grazers, with grass blades comprising of up to 90% of their diet. These monkeys have numerous adaptions to support their gramnivorous lifestyle, including small, sturdy fingers adapted for pulling grass and narrow, small incisors adapted for chewing it.",
+          animal_id: 69
+        },
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 106;")
+      return knex.raw("ALTER SEQUENCE facts_id_seq RESTART WITH 115;")
     })
 }

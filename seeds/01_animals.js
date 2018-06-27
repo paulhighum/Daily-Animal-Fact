@@ -343,8 +343,13 @@ exports.seed = function(knex, Promise){
         }, {
           id: 68,
           name: "Short-Beaked Echidna",
-          scientific_name: "achyglossus aculeatus",
+          scientific_name: "Tachyglossus aculeatus",
           image: "https://i.imgur.com/Q7JW3TL.jpg"
+        }, {
+          id: 69,
+          name: "Gelada",
+          scientific_name: "Theropithecus gelada",
+          image: "https://i.imgur.com/YuD0JBe.jpg"
         },
       ])
     })
